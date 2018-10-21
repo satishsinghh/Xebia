@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applications", "Applications", "{22E2E7BD-4546-4DD5-9E74-FFFCF1382A96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{394424E4-A42F-439C-A64E-2BE468407619}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xebia.Service.Host", "Xebia.Service.Host\Xebia.Service.Host.csproj", "{960B99EA-8DD9-4751-B872-AB078EBA9865}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{8BF9FFC1-A478-4486-AAF8-3E6AE3A151E5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xebia.Client", "Xebia.Client\Xebia.Client.csproj", "{31B5B9EB-8EE0-4B6D-8804-9192FA76D988}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xebia.DatabaseCore", "Xebia.Domain\Xebia.DatabaseCore.csproj", "{C93726BE-1F92-47B8-BE64-899633C7C871}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xebia.Model", "Xebia.Model\Xebia.Model.csproj", "{B3253766-0865-4010-88D1-4A0E29AC86FF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xebia.Service", "Xebia.Service\Xebia.Service.csproj", "{FADB971B-3821-4505-A1A3-C5A4637F1C06}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xebia.CommonUtility", "Xebia.CommonUtility\Xebia.CommonUtility.csproj", "{99D08066-40AD-483D-9833-FDFB5B97EAE5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xebia.ServiceTest", "Xebia.ServiceTest\Xebia.ServiceTest.csproj", "{ACE97727-78FA-418B-B8D3-47D6274918C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DatabaseScript", "DatabaseScript", "{F0056630-54C9-4A7D-97FE-AB3FFB84C00F}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\Admin\Desktop\Assignment2_WebAPI.TXT = C:\Users\Admin\Desktop\Assignment2_WebAPI.TXT
+		C:\Users\Admin\Desktop\XebiaScript.sql = C:\Users\Admin\Desktop\XebiaScript.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{960B99EA-8DD9-4751-B872-AB078EBA9865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{960B99EA-8DD9-4751-B872-AB078EBA9865}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{960B99EA-8DD9-4751-B872-AB078EBA9865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{960B99EA-8DD9-4751-B872-AB078EBA9865}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BF9FFC1-A478-4486-AAF8-3E6AE3A151E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BF9FFC1-A478-4486-AAF8-3E6AE3A151E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BF9FFC1-A478-4486-AAF8-3E6AE3A151E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BF9FFC1-A478-4486-AAF8-3E6AE3A151E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31B5B9EB-8EE0-4B6D-8804-9192FA76D988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31B5B9EB-8EE0-4B6D-8804-9192FA76D988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31B5B9EB-8EE0-4B6D-8804-9192FA76D988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31B5B9EB-8EE0-4B6D-8804-9192FA76D988}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C93726BE-1F92-47B8-BE64-899633C7C871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C93726BE-1F92-47B8-BE64-899633C7C871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C93726BE-1F92-47B8-BE64-899633C7C871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C93726BE-1F92-47B8-BE64-899633C7C871}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3253766-0865-4010-88D1-4A0E29AC86FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3253766-0865-4010-88D1-4A0E29AC86FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3253766-0865-4010-88D1-4A0E29AC86FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3253766-0865-4010-88D1-4A0E29AC86FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FADB971B-3821-4505-A1A3-C5A4637F1C06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FADB971B-3821-4505-A1A3-C5A4637F1C06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FADB971B-3821-4505-A1A3-C5A4637F1C06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FADB971B-3821-4505-A1A3-C5A4637F1C06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99D08066-40AD-483D-9833-FDFB5B97EAE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99D08066-40AD-483D-9833-FDFB5B97EAE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99D08066-40AD-483D-9833-FDFB5B97EAE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99D08066-40AD-483D-9833-FDFB5B97EAE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACE97727-78FA-418B-B8D3-47D6274918C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACE97727-78FA-418B-B8D3-47D6274918C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACE97727-78FA-418B-B8D3-47D6274918C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACE97727-78FA-418B-B8D3-47D6274918C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{960B99EA-8DD9-4751-B872-AB078EBA9865} = {22E2E7BD-4546-4DD5-9E74-FFFCF1382A96}
+		{31B5B9EB-8EE0-4B6D-8804-9192FA76D988} = {394424E4-A42F-439C-A64E-2BE468407619}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A432E69F-0D4C-4882-B2E5-2C32C2B27846}
+	EndGlobalSection
+EndGlobal

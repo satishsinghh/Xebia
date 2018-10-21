@@ -1,0 +1,11 @@
+D:\local\Xebia\Xebia.ApiDemo\Xebia.Domain\bin\Debug\netcoreapp2.0\Xebia.DatabaseCore.deps.json
+D:\local\Xebia\Xebia.ApiDemo\Xebia.Domain\bin\Debug\netcoreapp2.0\Xebia.DatabaseCore.dll
+D:\local\Xebia\Xebia.ApiDemo\Xebia.Domain\bin\Debug\netcoreapp2.0\Xebia.DatabaseCore.pdb
+D:\local\Xebia\Xebia.ApiDemo\Xebia.Domain\bin\Debug\netcoreapp2.0\Xebia.Model.dll
+D:\local\Xebia\Xebia.ApiDemo\Xebia.Domain\bin\Debug\netcoreapp2.0\Xebia.Model.pdb
+D:\local\Xebia\Xebia.ApiDemo\Xebia.Domain\obj\Debug\netcoreapp2.0\Xebia.DatabaseCore.csprojResolveAssemblyReference.cache
+D:\local\Xebia\Xebia.ApiDemo\Xebia.Domain\obj\Debug\netcoreapp2.0\Xebia.DatabaseCore.csproj.CoreCompileInputs.cache
+D:\local\Xebia\Xebia.ApiDemo\Xebia.Domain\obj\Debug\netcoreapp2.0\Xebia.DatabaseCore.AssemblyInfoInputs.cache
+D:\local\Xebia\Xebia.ApiDemo\Xebia.Domain\obj\Debug\netcoreapp2.0\Xebia.DatabaseCore.AssemblyInfo.cs
+D:\local\Xebia\Xebia.ApiDemo\Xebia.Domain\obj\Debug\netcoreapp2.0\Xebia.DatabaseCore.dll
+D:\local\Xebia\Xebia.ApiDemo\Xebia.Domain\obj\Debug\netcoreapp2.0\Xebia.DatabaseCore.pdb

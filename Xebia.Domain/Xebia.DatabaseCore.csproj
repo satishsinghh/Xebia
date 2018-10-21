@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.0-preview3-35497" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.2.0-preview3-35497" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="2.2.0-preview3-35497" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.6.0-preview3-27014-02" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Xebia.Model\Xebia.Model.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="TableTypes\" />
+  </ItemGroup>
+
+</Project>
